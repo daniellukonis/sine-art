@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+canvas{
+    background-color: wheat;
+}
+
+h4{
+    display: inline;
+}
+
+button{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 130px;
+}
+
+cite{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.flexCentered{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 98%;
+}
+
+.control{
+    position:fixed;
+}
+
+@media (orientation : landscape){
+    .flexCentered{
+        justify-content: end;
+    }
+}
